@@ -23,7 +23,7 @@ function adicionar() {
 }
 
 // função pra adicionar itens à lista ao pressionar Enter no input
-input.addEventListener("keyup", function remover(event) {
+input.addEventListener("keyup", function enter(event) {
   // quando pressionar Enter dentro do input, chama a função adicionar()
   if (event.key == "Enter") {
     event.preventDefault();

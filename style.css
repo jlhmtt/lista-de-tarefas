@@ -1,0 +1,54 @@
+html, body {
+  height: 100%;
+  width: 100%;
+
+  font-family: 'Playfair Display', serif;
+  
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#divFora {
+  height: 40em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#divTopo {
+  height: 8em;
+}
+
+#divBaixo {
+  height: 32em;
+}
+
+ul {
+  padding: 0 1em;
+}
+
+ul:last-child {
+  padding-bottom: 2em;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 4px;
+
+  line-height: 2em;
+}
+
+li button {
+  height: 2em;
+  width: 2em;
+  font-weight: bold;
+}
+
+button {
+  font-family: 'Playfair Display', serif;
+}
